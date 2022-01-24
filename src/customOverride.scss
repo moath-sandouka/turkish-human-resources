@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-$dark-background-color: #080808;
+$dark-background-color: #ffffff;
 $gold-background-color: #a8936e;
 $dark-1-gold-background-color: #8f7d5f;
 $dark-2-gold-background-color: #70634c;
@@ -11,7 +11,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   background-color: $dark-background-color;
-  color: rgb(243, 235, 235);
+  color: $gold-background-color;
 }
 
 p {
